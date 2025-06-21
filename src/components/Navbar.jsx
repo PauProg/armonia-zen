@@ -6,7 +6,7 @@ const navElements = [
         href: '#hero'
     },
     {
-        name: 'Sobre Nosotros',
+        name: 'Sobre nosotros',
         href: '#about'
     },
     {
