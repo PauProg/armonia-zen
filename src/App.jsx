@@ -1,5 +1,7 @@
 import { AboutSection } from "./components/AboutSection"
 import { BookingSection } from "./components/BookingSection"
+import { ContactSection } from "./components/ContactSection"
+import { Footer } from "./components/Footer"
 import { GallerySection } from "./components/GallerySection"
 import { HeroSection } from "./components/HeroSection"
 import { Navbar } from "./components/Navbar"
@@ -10,6 +12,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen text-[#292524]">
+
       {/* Navbar */}
       <Navbar />
 
@@ -32,8 +35,10 @@ function App() {
       <BookingSection />
 
       {/* Contact */}
+      <ContactSection />
 
       {/* Footer */}
+      <Footer />
 
     </div>
   )
