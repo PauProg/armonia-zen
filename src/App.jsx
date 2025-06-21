@@ -11,7 +11,7 @@ import { ServicesSection } from "./components/ServicesSection"
 function App() {
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-[#292524]">
+    <div className="flex flex-col items-center justify-center min-h-screen text-[#292524] overflow-x-hidden">
 
       {/* Navbar */}
       <Navbar />
